@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #9abcdc;
+}
+
+a {
+    outline: none;
+}
+
+.ol_head {
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 50px 20px 0px;
+    position: fixed;
+    left: 80%;
+
+}
+
+.li_head {
+    padding: 0 20px 0 0px;
+}
+
+.a_head {
+
+    text-decoration: none;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    transition: color .5s;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.a_head:hover {
+    color: blue;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 5%;
+    margin: 15px 0 20px 30px;
+    transition: opacity .5s;
+}
+
+img:hover {
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.back-color-center {
+    background-color: #477BFF;
+    width: 35%;
+    height: 530px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 40px;
+
+
+}
+
+.h1_div {
+    color: #000;
+    height: 50px;
+    align-items: center;
+    padding-top: 15px;
+    background-color: #715AFF;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#in1 {
+    border: 0;
+    opacity: 0.6;
+    outline: none;
+    width: 70%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 0 0 0 10px;
+    font-weight: 750;
+
+}
+
+.s1 {
+    display: inline-flex;
+    margin-left: 230px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    text-align: end;
+}
+
+.s1:hover,
+#s2:hover {
+    text-decoration: underline;
+}
+
+#input_div {
+    position: absolute;
+}
+
+.span_position1 {
+    position: fixed;
+    top: 34.5%;
+    left: 38%;
+    opacity: 0.4;
+
+}
+
+#ind {
+    border: 0;
+    opacity: 0.6;
+    outline: none;
+    width: 70%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 0 0 0 10px;
+    font-weight: 750;
+}
+
+#s2 {
+    display: inline-flex;
+    margin-left: 220px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.span_position2 {
+    position: fixed;
+    top: 52.5%;
+    left: 38%;
+    opacity: 0.4;
+}
+
+#in3 {
+    display: block;
+    width: 35%;
+    height: 40px;
+    border: 0px;
+    border-radius: 7px;
+    opacity: 0.6;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 40px auto;
+    background-color: #000;
+    transition: background-color .2s;
+    font-family: 'Amiri', serif;
+}
+
+#in3:active {
+    background-color: #715AFF;
+
+}
+
+.ol_down {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.lid {
+    margin: 15px;
+    list-style-type: none;
+}
+
+.ad {
+    color: #000;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.ad:hover {
+    color: blue;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    color: #715AFF;
+    position: fixed;
+    bottom: 30%;
+    left: 14%;
+    
+}
+
+#fot_div {
+    position: absolute;
+    bottom:1%;
+    z-index: -1;
+    width: 100%;
+     
+}
+.hr1 {
+    background-color: #ddd;
+    height: 1px;
+    width: 75%;
+    border: 0px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    opacity: 0.7;
+}
+.hr2_box {
+    width: 15%;
+    height: 300px;
+    border: 0px;
+    background-color: #715AFF;
+    margin-left: 180px;
+    opacity: 0.3;
+    border-radius:5px 5px 0 0;
+}
+
+.hr3_box {
+    width: 12%;
+    height: 200px;
+    border: 0px;
+    background-color: #715AFF;
+    margin-left: 70%;
+    border-radius:5px 5px 0 0;
+    position: fixed;
+    bottom: 3%;
+    opacity: 0.3;
+
+}
+
+.smail {
+    position: fixed;
+    bottom: 100px;
+    right: 20.6%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:540;
+    font-size: 15px;
+    position: center;
+    opacity: 0.7;
+
+}
+
